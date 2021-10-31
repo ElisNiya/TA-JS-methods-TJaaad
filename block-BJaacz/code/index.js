@@ -3,7 +3,10 @@
 /*
   Create a function named addTwo which accepts a number, adds 2 to the number and return the new value.
 */
-
+function addTwo(nr){
+    return  function(2){
+    } return 2+nr
+}
 /*
   Create a function named addThree which accepts a number, adds 3 to the number and return the new value.
 */
