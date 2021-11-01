@@ -41,7 +41,9 @@ let newMessage = message.replace("are", "can't")
 // Replace the word "thinking" to "decide" using newMessage variable, and re-assign the output to the variable `newMessage` and log it.
 
 // Log all the characters from the message variable (you can user for..of loop on string)
-
+for(let char of message) {
+console.log(char)
+}
 // Split all the words in message (split by " " space) and store it in a variable messageArray
 
 // Log all the words of messageArray
