@@ -31,20 +31,20 @@ Example:
      ```
    - `charAt` accepts a index (number data type) and return the character on that index in the string.
 
-2. `toUpperCase`
-3. `toLowerCase`
-4. `trim`
-5. `trimEnd`
-6. `trimStart`
-7. `concat`
-8. `endsWith`
-9. `includes`
-10. `indexOf`
-11. `lastIndexOf`
-12. `padEnd`
-13. `padStart`
-14. `repeat`
-15. `replace`
-16. `slice`
-17. `split`
+2. `toUpperCase`.   - string in uppercase
+3. `toLowerCase`    
+4. `trim` - removes spaces returns string
+5. `trimEnd` - returns string
+6. `trimStart`. -returns string trims start 
+7. `concat` - puts together variables in a string
+8. `endsWith`. -shows true/false ending - case sensitive
+9. `includes` - shows if a string includes given value
+10. `indexOf` - shows what is in the string in that index
+11. `lastIndexOf`. - shows input on last index
+12. `padEnd` - adds to the end
+13. `padStart`- adds to the start
+14. `repeat` - repeats given value
+15. `replace` - replaces
+16. `slice` - slices the string from given input start to given end 
+17. `split` - splits the string into array 
 18. `substring`
