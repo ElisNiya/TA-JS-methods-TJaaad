@@ -33,24 +33,23 @@ Example:
    - `concat` accepts n number of values and returns one array with all the values in same order. It does not change the original array.
    - No it does not mutate the original array
 
-2. `join`
-3. `flat`
-4. `push`
-5. `indexOf`
-6. `lastIndexOf`
-7. `includes`
-8. `reverse`
-9. `every`
-10. `shift`
-11. `splice`
-12. `find`
-13. `unshift`
-14. `findIndex`
-15. `filter`
-16. `flat`
-17. `forEach`
-18. `map`
-19. `pop`
-20. `reduce`
-21. `slice`
-22. `some`
+2. `join` - joins / concatenates all elements in an array with a specified separator
+3. `flat` - new array with subarray elements concatenated [1,2 [3,4,[5,6]]]. => [1,2,3,4,5,6]
+4. `push` - pushes new element to the end of the array
+5. `indexOf` - shows index of element/string
+6. `lastIndexOf` - shows last index of the element
+7. `includes` - checks if array includes element returns true/false
+8. `reverse` - reverses array
+9. `every` - checks if each element has the specified element
+10. `shift` - removes first element and returns it
+11. `splice`. - changes content of array by removing or replacing existing elements
+12. `find` - searches and finds specified element
+13. `unshift` - add to the start
+14. `findIndex` - finds index
+15. `filter` - filters with cb if true for each element and stores in a new array 
+16. `forEach` - accepts a call back function - goes through each element like a for loop  
+17. `map` - creates a new array with results of the given function on every element.  //.map(x => x * 2 )
+18. `pop` - deletes and returns deleted
+19. `reduce` - reduces according to the given call back function
+20. `slice` - slices array from given start to end 
+21. `some` - checks for at least 1 true element
