@@ -80,7 +80,8 @@ Store the output in a new variable
 /*
 17. Log the repeat of "Hello World!" 10 times.
 */
-
+let words = "Hello World!"
+words.repeat(10)
 /*
 18. Replace today to tomorrow in quote.
 */
@@ -96,3 +97,4 @@ Store the output in a new variable
 /*
 21. Find out does quote, from, to starts with "A"
 */
+
