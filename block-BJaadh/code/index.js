@@ -11,27 +11,27 @@ Clone the array before using sort method: [...arr]
 */
 
 // - Find the index of `101` in numbers
-
+indexOf("101")
 // - Find the last index of `9` in numbers
-
+lastIndexOf("9")
 // - Convert value of strings array into a sentance like "This is a collection of words"
-
+strings.concatenate()
 // - Add two new words in the strings array "called" and "sentance"
-
+strings = strings + "called" + "sentence"
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
-
+strings.concatenate()
 // - Remove the first word in the array (strings)
-
+strings.shift()
 // - Find all the words that contain 'is' use string method 'includes'
-
+strings.includes("is")
 // - Find all the words that contain 'is' use string method 'indexOf'
 
 // - Check if all the numbers in numbers array are divisible by three use array method (every)
-
+every()
 // -  Sort Array from smallest to largest
-
+sort(a-b)
 // - Remove the last word in strings
-
+pop()
 // - Find largest number in numbers
 
 // - Find longest string in strings
