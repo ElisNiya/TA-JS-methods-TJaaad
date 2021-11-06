@@ -1,4 +1,4 @@
-let persons = [
+let people = [
   { name: 'John', grade: 8, sex: 'M' },
   { name: 'Sarah', grade: 12, sex: 'F' },
   { name: 'Bob', grade: 16, sex: 'M' },
@@ -13,12 +13,12 @@ let persons = [
   { name: 'Arya', grade: 14, sex: 'F' },
 ];
 
-// Create an array peopleName and store value of sex key from persons array
-
+// Create an array peopleName and store value of name key from persons array
+let peopleName = people.name
 // Create an array peopleGrade and store the value of grade key from persons array
-
+let peopleGrade = people.grade
 // Create an array peopleSex and store the value of sex key from persons array
-
+let peopleSex = people.sex
 // Log the filtered named of people in peopleName that starts with 'J' or 'P'
 
 // Log the length of filtered named of people in peopleName that starts with 'A' and 'C'
