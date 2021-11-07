@@ -16,17 +16,17 @@ let persons = [
 // NOTE: Use reduce method whereever you can to solve this exercise:
 
 // Find the average grade
-
+let avg
 // Find the average grade of male
-
+let avgMale
 // Find the average grade of female
-
+let avgFemale
 // Find the highest grade
-
+let highest
 // Find the highest grade in male
-
+let highestMale
 // Find the highest grade in female
-
+let highestFemale
 // Find the highest grade for people whose name starts with 'J' or 'P'
 
 const fruitBasket = [
