@@ -1,18 +1,32 @@
 // NOTE: You can only use the (reduce) array method to solve this exercise:
 
 function countAllPeople() {
+  return got.houses.reduce((acc,cv) => {
+      acc = acc + cv.people.length;
+    return acc;
+  } ,0)
+  
 }
 
 function peopleByHouses() {
-  // your code goes here
+  return got.houses.reduce((acc,house) => {
+      acc[house.name] = house.people.length;   //name of house and value of house
+    return acc;
+  } ,{})
 }
 
 function everyone() {
-  // your code goes here
+ return got.houses.reduce((acc,house) => {
+      acc = acc.concat(house.people.map((p) => p.name))
+    return acc;
+  } ,{})
 }
 
 function nameWithS() {
-  // your code goes here
+ return got.houses.reduce((acc,house) => {
+      acc = acc.concat(house.people.map((p) => p.name).filter((name) => name.toLowerCase().includes("s")))
+    return acc;
+  } ,[])
 }
 
 function nameWithA() {
@@ -28,7 +42,10 @@ function surnameWithA() {
 }
 
 function peopleNameOfAllHouses() {
-  // your code goes here
+return got.houses.reduce((acc, house) => {
+      acc[house.name] = house.people.map((p) => p.name);
+    return acc;
+  }, {});
 }
 
 // Testing your result after writing your function
